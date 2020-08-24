@@ -17,3 +17,7 @@ spring:
     user:
       password: admin
       name: admin
+  mvc:
+    view:
+      prefix: /WEB-INF/pages/
+      suffix: .jsp
